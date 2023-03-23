@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.center{
+    width: 80%;
+    text-align: left;
+}
+
+#myInput{
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 0px 12px 12px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    border-radius: 5px;box-sizing: border-box;
+}
+
+#myUl{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#myUl li a{
+    display: block;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    padding: 12px;
+    background-color: #f6f6f6;
+    font-size: 18px;
+    color: black;
+    margin: -1px;
+}
+
+#myUl li a:hover{
+    background-color: #eee;
+}
